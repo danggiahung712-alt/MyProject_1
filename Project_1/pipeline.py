@@ -8,43 +8,39 @@ def parse_args():
     return parser.parse_args()
 
 def read_file(fp):
-    with open(fp,encoding='utf-8') as f:
-        for line in f:
-            yield line
+    with open('fp',encoding='utf-8') as d:
+        for line in d:
+            yield d
 
 def read_csvfile(fp):
-    with open(fp,encoding='utf-8') as f:
-        row = csv.DictReader(f)
-        for line in row:
-            yield line
+    with open('fp',encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            yield row
 
 def parse_log_line(lines):
     for line in lines:
-        part=line.strip().split(maxsplit=3)
-        if len(part) < 4:
+        line = line.strip().split(maxsplit=3) 
+        if len(line) < 4:
             continue
-        yield {'timestamp':f'{part[0]} {part[1]}', 'level': part[2],'message':part[3]}
+        yield {'timestamp':f'{line[0]} {line[1]}',
+               'level': line[2],
+               'message': line[3]}
 
 def filter_error(lines):
-    for r in lines:
-        if r['level'] in ('ERROR','CRITICAL'):
-            yield r
-
+    for line in lines:
+        if line['level'] in ('ERROR','CRITICAL'):
+            yield line
+    
 def calculate(rows):
-    sum_rev = 0
-    for row in rows:
-        if row.get('status') != 'completed':
-            continue
-        try: 
-            sum_rev += float(row['amount'])
-        except (ValueError,TypeError):
-            continue
-    return sum_rev
+    revenue = 0
+    if rows.get('status') == 'completed' and rows['amount']:
+        continue
+    revenue += rows['amount']
+    
 
 def link_file(*generator):
-    for gen in generator:
-        yield from gen
-
+    
 if __name__ == '__main__':
     args = parse_args()
     logging.basicConfig(level=logging.INFO,format='%(asctime)s [%(levelname)s] %(message)s')

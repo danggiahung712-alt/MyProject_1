@@ -1,0 +1,26 @@
+order_id,customer_id,product_name,quantity,unit_price,order_date,payment_method
+1001,C001,Ao thun,2,150000,2024-01-15,momo
+1002,C002,Quan jean,1,320000,2024-01-15,credit_card
+1003,C003,Giay sneaker,3,480000,2024-01-15,cod
+1004,C004,Balo,1,250000,2024-01-15,momo
+1005,,Mu luoi trai,2,99000,2024-01-15,credit_card
+1006,C006,Ao khoac,-1,420000,2024-01-15,cod
+1007,C007,Vi da,1,abc,2024-01-15,momo
+1008,C008,Tui xach,2,300000,2024-01-16,cod
+1009,C009,Dong ho,1,,2024-01-15,credit_card
+1010,C010,Kinh mat,4,180000,2024-01-15,momo
+1011,C011,Giay the thao,1,350000,15-01-2024,cod
+1012,C012,Ao so mi,2,220000,2024-01-15,credit_card
+1013,C013,Quan short,3,140000,2024-01-15,momo
+1014,C014,Dep,x,90000,2024-01-15,cod
+1015,C015,Non,2,75000,2024-01-15,credit_card
+1016,C016,Vay,1,410000,2024-01-15,momo
+1016,C016,Vay,1,410000,2024-01-15,momo
+1017,C017,Ao len,2,260000,2024-01-15,cod
+1018,C018,Gang tay,3,45000,2024-01-15,credit_card
+1019,C019,Khan quang co,1,60000,2024-01-15,momo
+1020,C020,Tat,5,20000,2024-01-15,cod
+1021, C021 ,Bop tien, 2 , 130000 ,2024-01-15,momo
+1022,C022,Balo du lich,1,890000,2024-01-15,credit_card
+1023,C023,Ao mua,2,95000,2024-01-15,cod
+1024,C024,Giay boot,1,560000,2024-01-15,momo
