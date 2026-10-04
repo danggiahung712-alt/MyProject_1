@@ -34,13 +34,15 @@ def filter_error(lines):
     
 def calculate(rows):
     revenue = 0
-    if rows.get('status') == 'completed' and rows['amount']:
-        continue
-    revenue += rows['amount']
-    
+    for row in rows:
+        if row.get('status') != 'completed' or not row['amount']:
+            continue
+        revenue += rows['amount']
+    return revenue
 
 def link_file(*generator):
-    
+    for gen in generator:
+        yield from gen
 if __name__ == '__main__':
     args = parse_args()
     logging.basicConfig(level=logging.INFO,format='%(asctime)s [%(levelname)s] %(message)s')
