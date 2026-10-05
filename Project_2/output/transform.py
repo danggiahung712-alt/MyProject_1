@@ -31,7 +31,7 @@ def validate_csvfile(rows):
             valid_order.append(row)
         else:
             reason = 'duplicate_order_id'
-        return valid_order,error_records 
+    return valid_order,error_records 
 
 def group_by_order_id(records):
     events_by_order={}
@@ -55,9 +55,13 @@ def merge_logfile(events):
     else:
         fail_events = [e for e in events if e.get('event')=='PAYMENT_FAILED']
         success_events = [e for e in events if e.get('event')=='ORDER_CANCELLED']
-        if fail_events.get('timestamp') > success_events.get('timestamp') or success_events.get('timestamp') is None:
+
+        fail_timestamp = [e.get('timestamp') for e in fail_events]
+        success_timestamp = [e.get('timestamp') for e in success_events]
+        
+        if fail_timestamp and (not success_timestamp or max(fail_timestamp) > max(success_timestamp)):
             return 'cancelled'
-        elif success_events.get('timestamp') is not None:
+        elif success_timestamp:
             return 'confirmed'
         else:
             return 'pending'
@@ -78,3 +82,4 @@ for order in valid_order:
     oid = order['order_id']
     events = event_by_order.get(oid, [])
     order['final_status'] = merge_logfile(events)
+    print(order)
