@@ -1,0 +1,17 @@
+{"order_id": "1001", "customer_id": "C001", "product_name": "Ao thun", "quantity": 2, "unit_price": 150000.0, "total_amount": 300000.0, "order_date": "2024-01-15", "final_status": "delivered"}
+{"order_id": "1002", "customer_id": "C002", "product_name": "Quan jean", "quantity": 1, "unit_price": 320000.0, "total_amount": 320000.0, "order_date": "2024-01-15", "final_status": "shipped"}
+{"order_id": "1003", "customer_id": "C003", "product_name": "Giay sneaker", "quantity": 3, "unit_price": 480000.0, "total_amount": 1440000.0, "order_date": "2024-01-15", "final_status": "shipped"}
+{"order_id": "1004", "customer_id": "C004", "product_name": "Balo", "quantity": 1, "unit_price": 250000.0, "total_amount": 250000.0, "order_date": "2024-01-15", "final_status": "confirmed"}
+{"order_id": "1010", "customer_id": "C010", "product_name": "Kinh mat", "quantity": 4, "unit_price": 180000.0, "total_amount": 720000.0, "order_date": "2024-01-15", "final_status": "confirmed"}
+{"order_id": "1012", "customer_id": "C012", "product_name": "Ao so mi", "quantity": 2, "unit_price": 220000.0, "total_amount": 440000.0, "order_date": "2024-01-15", "final_status": "confirmed"}
+{"order_id": "1013", "customer_id": "C013", "product_name": "Quan short", "quantity": 3, "unit_price": 140000.0, "total_amount": 420000.0, "order_date": "2024-01-15", "final_status": "cancelled"}
+{"order_id": "1015", "customer_id": "C015", "product_name": "Non", "quantity": 2, "unit_price": 75000.0, "total_amount": 150000.0, "order_date": "2024-01-15", "final_status": "confirmed"}
+{"order_id": "1016", "customer_id": "C016", "product_name": "Vay", "quantity": 1, "unit_price": 410000.0, "total_amount": 410000.0, "order_date": "2024-01-15", "final_status": "confirmed"}
+{"order_id": "1017", "customer_id": "C017", "product_name": "Ao len", "quantity": 2, "unit_price": 260000.0, "total_amount": 520000.0, "order_date": "2024-01-15", "final_status": "confirmed"}
+{"order_id": "1018", "customer_id": "C018", "product_name": "Gang tay", "quantity": 3, "unit_price": 45000.0, "total_amount": 135000.0, "order_date": "2024-01-15", "final_status": "cancelled"}
+{"order_id": "1019", "customer_id": "C019", "product_name": "Khan quang co", "quantity": 1, "unit_price": 60000.0, "total_amount": 60000.0, "order_date": "2024-01-15", "final_status": "confirmed"}
+{"order_id": "1020", "customer_id": "C020", "product_name": "Tat", "quantity": 5, "unit_price": 20000.0, "total_amount": 100000.0, "order_date": "2024-01-15", "final_status": "confirmed"}
+{"order_id": "1021", "customer_id": "C021", "product_name": "Bop tien", "quantity": 2, "unit_price": 130000.0, "total_amount": 260000.0, "order_date": "2024-01-15", "final_status": "shipped"}
+{"order_id": "1022", "customer_id": "C022", "product_name": "Balo du lich", "quantity": 1, "unit_price": 890000.0, "total_amount": 890000.0, "order_date": "2024-01-15", "final_status": "cancelled"}
+{"order_id": "1023", "customer_id": "C023", "product_name": "Ao mua", "quantity": 2, "unit_price": 95000.0, "total_amount": 190000.0, "order_date": "2024-01-15", "final_status": "confirmed"}
+{"order_id": "1024", "customer_id": "C024", "product_name": "Giay boot", "quantity": 1, "unit_price": 560000.0, "total_amount": 560000.0, "order_date": "2024-01-15", "final_status": "confirmed"}

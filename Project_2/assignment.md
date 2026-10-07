@@ -194,8 +194,3 @@ ngày, không tính là lỗi).
 - [ ] Log thể hiện đủ các mốc bắt buộc, và có khác biệt rõ giữa `dev`/`prod`.
 - [ ] Không dùng pandas, SQL, database, decorator, OOP nâng cao.
 
----
-
-Khi bạn code xong, gửi code cho tôi — tôi sẽ không viết lại toàn bộ, mà sẽ
-soát logic, chỉ ra chỗ sai, hỏi lại tư duy của bạn, và chỉ đưa code sửa mẫu
-khi bạn thực sự bí.

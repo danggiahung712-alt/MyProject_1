@@ -1,0 +1,10 @@
+order_id,reason
+1005,missing_customer_id
+1006,invalid_quantity
+1007,invalid_unit_price
+1008,date_mismatch
+1009,invalid_unit_price
+1011,invalid_order_date
+1014,invalid_quantity
+1016,duplicate_order_id
+1021,invalid_quantity
