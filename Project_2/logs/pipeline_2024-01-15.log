@@ -1,0 +1,23 @@
+2026-11-02 10:19:52,651 [INFO] Pipeline bắt đầu, date=2024-01-15, env=dev
+2026-11-02 10:20:09,586 [INFO] Pipeline bắt đầu, date=2024-01-15, env=dev
+2026-11-02 10:20:09,593 [INFO] Đọc được 25 đơn hàng từ CSV
+2026-11-02 10:20:09,596 [INFO] Số đơn bị loại do lỗi dữ liệu: 7
+2026-11-02 10:20:09,597 [INFO] Số đơn bị loại do lệch ngày (date_mismatch): 1
+2026-11-02 10:20:09,597 [INFO] Số đơn hợp lệ sau validate: 17
+2026-11-02 10:20:09,598 [DEBUG] Chi tiết phân loại lý do bị loại: {'missing_customer_id': 1, 'invalid_quantity': 2, 'invalid_unit_price': 2, 'invalid_order_date': 1, 'duplicate_order_id': 1}
+2026-11-02 10:20:09,607 [INFO] Số dòng log hợp lệ: 25, không hợp lệ (bỏ qua): 4
+2026-11-02 10:20:09,608 [INFO] Transform hoàn tất: 17 đơn đã có final_status và total_amount
+2026-11-02 10:20:09,618 [INFO] Đã ghi 17 dòng vào C:\Users\HUNG YEN\OneDrive\Desktop\Project\Project_2\output\..\output\dev\orders_processed_2024-01-15.jsonl
+2026-11-02 10:20:09,623 [INFO] Đã ghi 7 dòng lỗi vào C:\Users\HUNG YEN\OneDrive\Desktop\Project\Project_2\output\..\output\dev\orders_errors_2024-01-15.csv
+2026-11-02 10:20:09,624 [INFO] Pipeline hoàn tất
+2026-11-02 10:22:02,379 [INFO] Pipeline bắt đầu, date=2024-01-15, env=dev
+2026-11-02 10:22:02,384 [INFO] Đọc được 25 đơn hàng từ CSV
+2026-11-02 10:22:02,385 [INFO] Số đơn bị loại do lỗi dữ liệu: 7
+2026-11-02 10:22:02,385 [INFO] Số đơn bị loại do lệch ngày (date_mismatch): 1
+2026-11-02 10:22:02,386 [INFO] Số đơn hợp lệ sau validate: 17
+2026-11-02 10:22:02,386 [DEBUG] Chi tiết phân loại lý do bị loại: {'missing_customer_id': 1, 'invalid_quantity': 2, 'invalid_unit_price': 2, 'invalid_order_date': 1, 'duplicate_order_id': 1}
+2026-11-02 10:22:02,391 [INFO] Số dòng log hợp lệ: 25, không hợp lệ (bỏ qua): 4
+2026-11-02 10:22:02,391 [INFO] Transform hoàn tất: 17 đơn đã có final_status và total_amount
+2026-11-02 10:22:02,394 [INFO] Đã ghi 17 dòng vào C:\Users\HUNG YEN\OneDrive\Desktop\Project\Project_2\output\..\output\dev\orders_processed_2024-01-15.jsonl
+2026-11-02 10:22:02,396 [INFO] Đã ghi 7 dòng lỗi vào C:\Users\HUNG YEN\OneDrive\Desktop\Project\Project_2\output\..\output\dev\orders_errors_2024-01-15.csv
+2026-11-02 10:22:02,396 [INFO] Pipeline hoàn tất
