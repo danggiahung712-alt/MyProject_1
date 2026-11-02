@@ -1,0 +1,15 @@
+product_id,product_name,category,unit_price,stock_qty
+P001,Clean Code,Books,330000,38
+P002,Python Crash Course,books,399000,22
+P003,Mechanical Keyboard,Electronics,1250000,9
+P004,USB-C Cable,electronics,89000,185
+P005,Desk Lamp,Home,260000,28
+P006,Notebook A5,Stationery,35000,470
+P007,Gel Pen Set,Stationery,45000,280
+P008,Wireless Mouse,Electronics,299000,55
+P009,Water Bottle,Home,120000,14
+P010,Backpack,Fashion,540000,17
+P015,Table Fan,home,480000,20
+P016,Monitor Stand,Electronics,450000,15
+P017,Planner 2024,Stationery,95000,80
+P018,Bad Row,Books,,5

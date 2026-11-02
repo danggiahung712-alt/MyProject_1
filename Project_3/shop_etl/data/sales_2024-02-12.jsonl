@@ -1,0 +1,5 @@
+{"sale_id": "S3001", "product_id": "P002", "quantity": 1, "sold_at": "2024-02-12T08:10:00", "customer": {"id": "C201", "city": "Hanoi"}, "payment": "momo"}
+{"sale_id": "S3002", "product_id": "P005", "quantity": 2, "sold_at": "2024-02-12T09:00:00", "customer": {"id": "C202", "city": "HCMC"}, "payment": "cod"}
+{"sale_id": "S3003", "product_id": "P007", "quantity": 1, "sold_at": "2024-02-12T09:40:00", "customer": {"id": "C99999999999999999999999999999999999999", "city": "Hue"}, "payment": "momo"}
+{"sale_id": "S3004", "product_id": "P016", "quantity": 1, "sold_at": "2024-02-12T10:30:00", "customer": {"id": "C203", "city": "Hanoi"}, "payment": "credit_card"}
+{"sale_id": "S3005", "product_id": "P010", "quantity": 2, "sold_at": "2024-02-12T11:15:00", "customer": {"id": "C204", "city": "Da Nang"}, "payment": "cod"}

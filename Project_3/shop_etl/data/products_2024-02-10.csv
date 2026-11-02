@@ -1,0 +1,17 @@
+product_id,product_name,category,unit_price,stock_qty
+P001,Clean Code,Books,350000,40
+P002,Python Crash Course,books,420000,25
+P003,Mechanical Keyboard,Electronics,1250000,12
+P004,USB-C Cable,electronics,89000,200
+P005,Desk Lamp,Home,260000,30
+P006,Notebook A5,Stationery,35000,500
+P007,Gel Pen Set,Stationery,45000,300
+P008,Wireless Mouse,Electronics,330000,60
+P009,Water Bottle,Home,120000,0
+P010,Backpack,Fashion,540000,18
+P011,,Books,150000,10
+P012,Headphones,Electronics,-50000,5
+P013,Sticky Notes,Stationery,N/A,100
+P014,Yoga Mat,Fashion,210000,x
+ P015 , Table Fan ,  home ,  480000 , 22 
+P002,Python Crash Course,Books,399000,25
