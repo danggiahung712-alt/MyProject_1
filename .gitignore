@@ -1,3 +1,13 @@
+# Python environment
 .venv/
+
+# Python cache
 __pycache__/
 *.pyc
+
+# Project 3 generated files
+Project_3/output/
+Project_3/logs/
+
+# Environment variables
+.env
